@@ -1,6 +1,6 @@
 # League of Legends Smile Therapy
 
-The League of Legends Smile Therapy Mod used in [this video](https://youtu.be/I3m8nhHngs4)! Either you smile and fill that little green bar... or you’ll be forced to carry the bad vibes out of the Rift with you (your client gets terminated 💀). 
+The Code for the League Mod used in [this video](https://youtu.be/I3m8nhHngs4)! Either you smile and fill that little green bar... or you’ll be forced to carry the bad vibes out of the Rift with you (your client gets terminated 💀). 
 
 ![thumbnail_2](https://github.com/user-attachments/assets/0fcd93be-55c4-47c9-aef8-12a64742b6d0)
 
