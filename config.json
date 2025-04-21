@@ -1,0 +1,6 @@
+{
+    "decay_rate": 0.5,
+    "fill_rate": 0.5,
+    "mouth_ratio_threshold": 1.8,
+    "eyes_ratio_threshold": 2.3
+}
