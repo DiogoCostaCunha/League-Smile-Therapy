@@ -3,6 +3,8 @@
 This is the code behind the **League of Legends mod** shown in [this video](https://youtu.be/I3m8nhHngs4)! 
 Either you smile and fill that little green bar… or the client gets terminated. 
 
+> Who knew League players were even capable of joy?
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0fcd93be-55c4-47c9-aef8-12a64742b6d0" alt="thumbnail" width="45%" />
   <img src="https://github.com/user-attachments/assets/c86ef112-4659-4932-8917-e10db1dc616b" alt="still" width="45%" />
@@ -23,7 +25,7 @@ To understand the whole setup, [**watch the video first**](https://youtu.be/I3m8
 2. Create and activate a [python virtual environment](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/)
 3. Install the requirements ```pip install -r requirements.txt```
 4. Download the [face landmarks](https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat) and place it on the root folder.
-5. Run 'python smile_detector.py' and you're ready to go! Enjoy the fun—or the despair!
+5. Execute ```python smile_detector.py``` and you're ready to go! Enjoy the fun—or the despair!
 
 ## 🛠 Customization
 
