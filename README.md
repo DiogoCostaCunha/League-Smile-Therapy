@@ -1,33 +1,48 @@
-# League of Legends Smile Therapy
+# League of Legends Smile Therapy 😁
 
-The Code for the League Mod used in [this video](https://youtu.be/I3m8nhHngs4)! Either you smile and fill that little green bar... or you’ll be forced to carry the bad vibes out of the Rift with you (your client gets terminated 💀). 
+This is the code behind the **League of Legends mod** shown in [this video](https://youtu.be/I3m8nhHngs4)! 
+Either you smile and fill that little green bar… or the client gets terminated. 
 
-![thumbnail_2](https://github.com/user-attachments/assets/0fcd93be-55c4-47c9-aef8-12a64742b6d0)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0fcd93be-55c4-47c9-aef8-12a64742b6d0" alt="thumbnail" width="45%" />
+  <img src="https://github.com/user-attachments/assets/c86ef112-4659-4932-8917-e10db1dc616b" alt="still" width="45%" />
+</p>
 
-![Still 2025-04-21 143659_2 98 1](https://github.com/user-attachments/assets/c86ef112-4659-4932-8917-e10db1dc616b)
+## 🧠 How It Works
 
-I advice you to check the video first to have an idea of how the script is supposed to work.
+The script uses real-time **facial landmark detection** to check if you're smiling. If you stop smiling, the progress bar starts draining. Let it hit zero… and the League client is terminated.
+
+To understand the whole setup, [**watch the video first**](https://youtu.be/I3m8nhHngs4)—it’ll make things clearer!
 
 
-## Setup
-You'll need at least Python 3.10 installed to be able to setup the following.
+## ⚙️ Setup Instructions
 
-1. Clone or download the repository.
-2. Set up a [python virtual environment](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/), activate it, and install requirements.txt
-3. Download the [face landmarks](https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat) and place it on the root folder of the git repository
-4. Run 'python smile_detector.py' and you're ready to go! Enjoy the fun—or the despair!
+> Requires Python **3.10+**
 
-## Customization
-You can customize the script functioning in config.json. The parameters there mean the following:
-- decay_rate: the rate at which the bar empties when you're not smiling. Higher value makes it more difficult.
-- fill_rate: the rate at which the bar fills up when you're smiling. Higher value makes it easier.
-- mouth_ratio_threshold: affects how wide your mouth must be for the smile to count. Higher value makes it more difficult.
-- eyes_ratio_threshold: affects how wide your eyes must be for the smile to count. Higher value makes it more difficult.
+1. **Clone** or download this repository.
+2. Create and activate a [python virtual environment](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/)
+3. Install the requirements ```pip install -r requirements.txt```
+4. Download the [face landmarks](https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat) and place it on the root folder.
+5. Run 'python smile_detector.py' and you're ready to go! Enjoy the fun—or the despair!
 
-## Disclaimer ⚠️
+## 🛠 Customization
 
-I take no responsibility for any problem that arises from using this application while playing League of Legends. I have never had any problem since I have started using it, but I can't ensure anything in this matter. Use at your own risk.
+You can tweak the script’s behavior using the config.json file.
+- ```decay_rate```: How fast the bar goes down when you're not smiling. Higher = harder.
+- ```fill_rate```: How fast the bar fills up when you're smiling. Higher = easier.
+- ```mouth_ratio_threshold```: Minimum mouth openness to count as a smile. Higher = stricter.
+- ```eyes_ratio_threshold```: Minimum eye openness to count as a smile. Higher = stricter.
+
+Also, the smile windows are draggable and resizable!
+
+## ⚠️ Disclaimer
+
+This is a fun, experimental tool.
+I’ve never had issues running it during League matches, but I can't guarantee your client or match won’t crash or misbehave. I can't also ensure that you won't face problems with Riot anticheat software, although I also never had those.
+**Use at your own risk.**
 
 ## Support My Channel 🚀
 
-I'm on a quest to create innovative and funny content, exploring the intersections of AI, software, and hardware! If you're intrigued, please consider [subscribing to my YouTube channel](https://www.youtube.com/channel/UCqnIZIGyH6NgJ8OkJAvZyKg?sub_confirmation=1) to stay updated!
+I make weird and wonderful projects at the crossroads of AI, hardware, and chaotic fun.
+
+If you enjoyed this and want more, please consider [subscribing to my YouTube channel](https://www.youtube.com/channel/UCqnIZIGyH6NgJ8OkJAvZyKg?sub_confirmation=1). Your support helps me keep doing this stuff!
